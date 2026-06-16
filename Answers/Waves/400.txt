@@ -7,3 +7,6 @@ Q: What is a surface wave?
 A: This property of sound, perceived as how high or low a sound is, is determined by the wave's frequency.
 Q: What is pitch?
 ------
+A: This property of sound, determined by a wave's amplitude, describes how loud or soft it is.
+Q: What is loudness?
+------

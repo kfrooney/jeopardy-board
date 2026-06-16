@@ -10,3 +10,6 @@ Q: What is a reflex?
 A: This control system works like a thermostat, reversing a change in the body to bring it back toward a stable, normal level.
 Q: What is negative feedback?
 ------
+A: This system sends signals as chemical hormones through the blood for slower, longer-lasting effects, compared to the nervous system's fast electrical signals.
+Q: What is the endocrine system?
+------

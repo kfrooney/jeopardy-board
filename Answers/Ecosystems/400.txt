@@ -1,12 +1,12 @@
-A: This law states that matter is neither created nor destroyed during any chemical or physical change.
-Q: What is conservation of mass?
+A: Nature's recyclers, these organisms break down wastes and dead organisms and return raw materials to the ecosystem.
+Q: What are decomposers?
 ------
-A: In the water cycle, this process occurs when liquid water absorbs energy and changes into a gas.
-Q: What is evaporation?
+A: This diagram shows the one-way flow of energy from one organism to the next in an ecosystem.
+Q: What is a food chain?
 ------
-A: In the water cycle, this process occurs when water vapor cools and changes back into a liquid.
-Q: What is condensation?
+A: This diagram is made of many overlapping food chains in an ecosystem.
+Q: What is a food web?
 ------
-A: This term covers rain, snow, sleet, and hail -- the water cycle stage when condensed water in clouds becomes too heavy and falls to the ground.
-Q: What is precipitation?
+A: According to this rule, only about 10% of the energy at one feeding level is transferred to the next, with the rest lost mostly as heat -- which limits food chains to about 4-5 levels.
+Q: What is the 10% energy rule (energy pyramid)?
 ------

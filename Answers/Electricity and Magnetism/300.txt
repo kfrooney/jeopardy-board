@@ -1,9 +1,12 @@
-A: This is a complete, closed path that electric current can flow through.
-Q: What is an electric circuit?
+A: This is the continuous flow of electric charge, usually carried by electrons moving through a wire.
+Q: What is electric current?
 ------
-A: In this type of circuit, all components are connected along a single path, so if one part fails, the entire circuit stops working.
-Q: What is a series circuit?
+A: This region surrounding a charged object is where its electric force can be detected and would act on another charge.
+Q: What is an electric field?
 ------
-A: In this type of circuit, components are connected along multiple branching paths, so current can still flow even if one branch fails.
-Q: What is a parallel circuit?
+A: Every magnet has two of these, called north and south, where the magnetic force is strongest.
+Q: What are magnetic poles?
+------
+A: This region surrounding a magnet is where its magnetic force can be detected.
+Q: What is a magnetic field?
 ------

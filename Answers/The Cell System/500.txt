@@ -4,8 +4,8 @@ Q: What is the chloroplast?
 A: This green pigment molecule, found in the chloroplast, captures light energy for photosynthesis.
 Q: What is chlorophyll?
 ------
-A: This term describes organisms like plants and algae that make their own food, as opposed to heterotrophs that cannot.
-Q: What is an autotroph (producer)?
+A: The glucose and oxygen produced by this process are the exact reactants needed to fuel cellular respiration.
+Q: What is photosynthesis?
 ------
 A: This process releases energy from food without using oxygen, and includes both alcoholic and lactic acid types.
 Q: What is fermentation?

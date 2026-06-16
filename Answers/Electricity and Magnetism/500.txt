@@ -1,9 +1,9 @@
-A: This region surrounding a magnet is where its magnetic force can be detected.
-Q: What is a magnetic field?
-------
-A: This property of an object is the ability to attract certain metals and to attract or repel other magnets.
-Q: What is magnetism?
-------
 A: This device creates a magnetic field using an electric current flowing through a coiled wire, combining electricity and magnetism.
 Q: What is an electromagnet?
+------
+A: A charge has this type of field surrounding it, and a magnet has this type of field surrounding it too -- the shared term for the invisible region where each force can be detected.
+Q: What is a field (electric field / magnetic field)?
+------
+A: If one bulb burns out in this type of circuit, the rest of the bulbs stay lit -- unlike in a series circuit, where the whole loop would go dark.
+Q: What is a parallel circuit?
 ------

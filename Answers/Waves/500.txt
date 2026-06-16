@@ -1,9 +1,12 @@
-A: This property of sound, determined by a wave's amplitude, describes how loud or soft it is.
-Q: What is loudness?
-------
-A: Sound is this type of wave, which means it cannot travel through the vacuum of outer space because it has no medium to move through.
+A: Because sound is this type of wave, it cannot travel through the vacuum of outer space -- it has no medium to move through.
 Q: What is a mechanical wave?
 ------
-A: A higher-frequency sound wave produces this perceived effect on pitch -- compared to a lower-frequency wave of the same type.
-Q: What is a higher pitch?
+A: Unlike sound, light is this type of wave, which is why it can travel through the vacuum of space with no medium needed.
+Q: What is an electromagnetic wave?
+------
+A: A wave's speed equals this property multiplied by its wavelength.
+Q: What is frequency?
+------
+A: If two sound waves have the same amplitude but one has a higher frequency, this is the resulting difference you would perceive.
+Q: What is a higher pitch (same loudness)?
 ------

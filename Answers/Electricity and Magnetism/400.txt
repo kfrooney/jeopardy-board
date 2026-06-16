@@ -1,9 +1,12 @@
-A: This object produces a magnetic field and attracts certain metals, like iron, nickel, and cobalt.
-Q: What is a magnet?
+A: This is a complete, closed path that electric current can flow through.
+Q: What is an electric circuit?
 ------
-A: Every magnet has two of these, called north and south, where the magnetic force is strongest.
-Q: What are magnetic poles?
+A: In this type of circuit, all components are connected along a single path, so if one part fails, the entire circuit stops working.
+Q: What is a series circuit?
 ------
-A: This force either attracts or repels objects based on their magnetic properties, with like poles repelling and opposite poles attracting.
-Q: What is magnetic force?
+A: In this type of circuit, components are connected along multiple branching paths, so current can still flow even if one branch fails.
+Q: What is a parallel circuit?
+------
+A: This property of an object is the ability to attract certain metals and to attract or repel other magnets.
+Q: What is magnetism?
 ------

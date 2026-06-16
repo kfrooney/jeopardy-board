@@ -1,12 +1,15 @@
 A: This process converts nitrogen gas in the air into a usable form, and can be done by certain bacteria living near plant roots, or by lightning.
 Q: What is nitrogen fixation?
 ------
-A: Producers take this gas in during photosynthesis, and both producers and consumers release it back during cellular respiration.
-Q: What is carbon dioxide?
+A: Producers take in this gas to do photosynthesis, while both producers and consumers release it back during cellular respiration -- the two processes that drive this entire matter cycle.
+Q: What is the carbon cycle (carbon dioxide)?
 ------
-A: This human activity releases large amounts of stored carbon into the air, disrupting the natural carbon cycle.
+A: This human activity releases large amounts of stored carbon into the air, disrupting the natural balance of the carbon cycle.
 Q: What is burning fossil fuels?
 ------
-A: Producers release this gas as a waste product of photosynthesis, and consumers take it in to use during cellular respiration.
+A: Producers release this gas as a waste product of photosynthesis, while consumers take it in from the air or water to use during cellular respiration.
 Q: What is oxygen?
+------
+A: Nitrogen makes up about 78% of air, but most organisms cannot use this "free" form directly -- they rely on this process to convert it into a usable form first.
+Q: What is nitrogen fixation?
 ------
