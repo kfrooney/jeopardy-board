@@ -1,0 +1,3 @@
+A: This director is known for films like Jaws, E.T., and Jurassic Park.
+Q: Who is Steven Spielberg?
+------

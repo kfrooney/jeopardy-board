@@ -1,0 +1,3 @@
+A: This wall fell in 1989, symbolizing the end of the Cold War in Europe.
+Q: What is the Berlin Wall?
+------

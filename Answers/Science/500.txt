@@ -1,0 +1,3 @@
+A: This is the basic unit of heredity, made of DNA.
+Q: What is a gene?
+------

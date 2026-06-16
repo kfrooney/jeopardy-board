@@ -1,0 +1,178 @@
+:root {
+  --jeopardy-blue: #060ce9;
+  --jeopardy-gold: #f8c440;
+  --board-gap: 6px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none !important;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #000;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 20px;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--jeopardy-gold);
+  letter-spacing: 4px;
+  margin: 0;
+  text-shadow: 2px 2px 4px #000;
+}
+
+button {
+  font-size: 1rem;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background: var(--jeopardy-gold);
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #ffd966;
+}
+
+#board-container {
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 16px 40px;
+}
+
+#status-message {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.board {
+  display: grid;
+  gap: var(--board-gap);
+  background: var(--jeopardy-blue);
+  padding: var(--board-gap);
+  border-radius: 8px;
+}
+
+.board.hidden {
+  display: none;
+}
+
+.topic-header {
+  background: var(--jeopardy-blue);
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px 4px;
+  font-size: clamp(0.7rem, 1.5vw, 1.1rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+}
+
+.cell {
+  background: var(--jeopardy-blue);
+  border: 2px solid #000;
+  color: var(--jeopardy-gold);
+  font-weight: bold;
+  font-size: clamp(1.2rem, 3vw, 2rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 3 / 2;
+  cursor: pointer;
+  font-family: Georgia, serif;
+  transition: background 0.15s;
+}
+
+.cell:hover:not(.used) {
+  background: #1a1fff;
+}
+
+.cell.used {
+  background: #00006b;
+  color: #2a2f8c;
+  cursor: default;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  background: var(--jeopardy-blue);
+  border: 4px solid var(--jeopardy-gold);
+  border-radius: 8px;
+  max-width: 700px;
+  width: 100%;
+  padding: 40px 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.clue-topic {
+  color: var(--jeopardy-gold);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+}
+
+.clue-text {
+  font-family: Georgia, serif;
+  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  text-transform: uppercase;
+}
+
+.clue-question {
+  font-family: Georgia, serif;
+  font-size: clamp(1.1rem, 2.2vw, 1.5rem);
+  color: var(--jeopardy-gold);
+}
+
+.clue-question.hidden {
+  display: none;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.modal-actions .hidden {
+  display: none;
+}

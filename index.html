@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeopardy Board</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Jeopardy!</h1>
+    <button id="reset-btn">New Game</button>
+  </header>
+
+  <main id="board-container">
+    <p id="status-message">Loading board...</p>
+    <div id="board" class="board hidden"></div>
+  </main>
+
+  <div id="clue-modal" class="modal hidden">
+    <div class="modal-content">
+      <div id="clue-topic" class="clue-topic"></div>
+      <div id="clue-text" class="clue-text"></div>
+      <div id="clue-question" class="clue-question hidden"></div>
+      <div class="modal-actions">
+        <button id="reveal-btn">Reveal Question</button>
+        <button id="close-btn" class="hidden">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
