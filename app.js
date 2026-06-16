@@ -12,6 +12,48 @@ const closeBtn = document.getElementById("close-btn");
 let boardData = null;
 let activeCell = null;
 
+function getSeedFromUrl() {
+  return new URLSearchParams(location.search).get("seed");
+}
+
+function generateSeed() {
+  return Math.random().toString(36).slice(2, 10);
+}
+
+function setSeedInUrl(seed) {
+  const url = new URL(location.href);
+  url.searchParams.set("seed", seed);
+  history.replaceState(null, "", url);
+}
+
+// Hashes a string into a 32-bit int to use as a PRNG seed.
+function hashString(str) {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = (Math.imul(31, hash) + str.charCodeAt(i)) | 0;
+  }
+  return hash >>> 0;
+}
+
+// mulberry32: small, fast, deterministic PRNG from a 32-bit seed.
+function mulberry32(seed) {
+  let a = seed;
+  return function () {
+    a |= 0;
+    a = (a + 0x6d2b79f5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+// Picks deterministically from arr using a seed string unique to this cell,
+// so the same board seed always reproduces the same set of clues.
+function pickSeeded(arr, seedKey) {
+  const rng = mulberry32(hashString(seedKey));
+  return arr[Math.floor(rng() * arr.length)];
+}
+
 async function loadData() {
   const res = await fetch("data.json", { cache: "no-store" });
   if (!res.ok) {
@@ -20,11 +62,7 @@ async function loadData() {
   return res.json();
 }
 
-function pickRandom(arr) {
-  return arr[Math.floor(Math.random() * arr.length)];
-}
-
-function renderBoard(data) {
+function renderBoard(data, seed) {
   boardEl.innerHTML = "";
   boardEl.style.gridTemplateColumns = `repeat(${data.topics.length}, 1fr)`;
   const numLevelsForLayout = Math.max(
@@ -51,8 +89,12 @@ function renderBoard(data) {
       if (!level.clues || level.clues.length === 0) {
         cell.classList.add("used");
       } else {
+        const clue = pickSeeded(
+          level.clues,
+          `${seed}|${topic.name}|${level.value}`
+        );
         cell.addEventListener("click", () =>
-          openClue(topic.name, level, cell)
+          openClue(topic.name, level.value, clue, cell)
         );
       }
       boardEl.appendChild(cell);
@@ -63,13 +105,12 @@ function renderBoard(data) {
   statusEl.classList.add("hidden");
 }
 
-function openClue(topicName, level, cellEl) {
+function openClue(topicName, value, clue, cellEl) {
   if (cellEl.classList.contains("used")) return;
 
-  const clue = pickRandom(level.clues);
   activeCell = cellEl;
 
-  clueTopicEl.textContent = `${topicName} - $${level.value}`;
+  clueTopicEl.textContent = `${topicName} - $${value}`;
   clueTextEl.textContent = clue.answer;
   clueQuestionEl.textContent = clue.question;
   clueQuestionEl.classList.add("hidden");
@@ -94,6 +135,7 @@ closeBtn.addEventListener("click", () => {
 });
 
 resetBtn.addEventListener("click", () => {
+  setSeedInUrl(generateSeed());
   init();
 });
 
@@ -101,6 +143,13 @@ async function init() {
   statusEl.textContent = "Loading board...";
   statusEl.classList.remove("hidden");
   boardEl.classList.add("hidden");
+
+  let seed = getSeedFromUrl();
+  if (!seed) {
+    seed = generateSeed();
+    setSeedInUrl(seed);
+  }
+
   try {
     boardData = await loadData();
     if (!boardData.topics || boardData.topics.length === 0) {
@@ -108,7 +157,7 @@ async function init() {
         "No topics found. Add folders to the Answers directory.";
       return;
     }
-    renderBoard(boardData);
+    renderBoard(boardData, seed);
   } catch (err) {
     statusEl.textContent = `Error loading board: ${err.message}`;
   }
