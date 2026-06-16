@@ -1,0 +1,9 @@
+A: This negatively charged particle, when it builds up or moves, is responsible for electricity.
+Q: What is an electron?
+------
+A: This is the buildup of electric charge on the surface of an object, often caused by friction.
+Q: What is static electricity?
+------
+A: This force exists between two charged objects, attracting opposite charges and repelling like charges.
+Q: What is electric force?
+------

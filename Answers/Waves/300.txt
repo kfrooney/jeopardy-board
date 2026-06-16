@@ -1,0 +1,12 @@
+A: This is the number of waves that pass a given point in one second.
+Q: What is frequency?
+------
+A: This wave interaction occurs when a wave bounces off a surface, like an echo bouncing off a wall.
+Q: What is reflection?
+------
+A: This wave interaction occurs when a wave bends as it passes from one medium into another, such as light bending as it enters water.
+Q: What is refraction?
+------
+A: This wave interaction occurs when a wave bends around an obstacle or spreads out after passing through a narrow opening.
+Q: What is diffraction?
+------

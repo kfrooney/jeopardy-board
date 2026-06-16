@@ -1,3 +1,0 @@
-A: This force keeps planets in orbit around the sun.
-Q: What is gravity?
-------

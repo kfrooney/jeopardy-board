@@ -1,0 +1,9 @@
+A: This region surrounding a magnet is where its magnetic force can be detected.
+Q: What is a magnetic field?
+------
+A: This property of an object is the ability to attract certain metals and to attract or repel other magnets.
+Q: What is magnetism?
+------
+A: This device creates a magnetic field using an electric current flowing through a coiled wire, combining electricity and magnetism.
+Q: What is an electromagnet?
+------

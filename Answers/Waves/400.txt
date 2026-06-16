@@ -1,0 +1,9 @@
+A: This wave interaction occurs when a material takes in a wave's energy, often becoming warmer in the process.
+Q: What is absorption?
+------
+A: This wave type travels along the boundary between two mediums, combining both transverse and longitudinal motion, like an ocean wave.
+Q: What is a surface wave?
+------
+A: This property of sound, perceived as how high or low a sound is, is determined by the wave's frequency.
+Q: What is pitch?
+------

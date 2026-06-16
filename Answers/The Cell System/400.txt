@@ -1,0 +1,12 @@
+A: This is the regular sequence of events in which a cell grows, prepares for division, and divides to form two daughter cells.
+Q: What is the cell cycle?
+------
+A: Remembered with the mnemonic "P.M.A.T.," these are the four phases of mitosis in order.
+Q: What are prophase, metaphase, anaphase, and telophase?
+------
+A: During this final stage of the cell cycle, the cell's cytoplasm divides and organelles are distributed into each of the two new daughter cells.
+Q: What is cytokinesis?
+------
+A: In animal cells, cytokinesis happens when this structure forms and pinches closed, while in plant cells a cell plate forms instead.
+Q: What is a cleavage furrow?
+------

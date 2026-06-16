@@ -1,0 +1,12 @@
+A: This is an alternate form of a gene that can produce a different version of a trait.
+Q: What is an allele?
+------
+A: A trait controlled by this type of allele will always be expressed if at least one copy is present.
+Q: What is dominant?
+------
+A: This inheritance pattern produces a blended trait, such as pink flowers from one red and one white parent allele.
+Q: What is incomplete dominance?
+------
+A: This inheritance pattern, like human blood type AB, occurs when both alleles are fully and separately expressed at the same time.
+Q: What is codominance?
+------

@@ -1,0 +1,9 @@
+A: This is a disturbance that transfers energy from one place to another.
+Q: What is a wave?
+------
+A: This is the material that a mechanical wave travels through, such as air, water, or a rope.
+Q: What is a medium?
+------
+A: This type of wave requires a medium to travel through, like sound waves moving through air.
+Q: What is a mechanical wave?
+------

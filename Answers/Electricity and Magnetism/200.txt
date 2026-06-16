@@ -1,0 +1,9 @@
+A: This is the continuous flow of electric charge, usually carried by electrons moving through a wire.
+Q: What is electric current?
+------
+A: This type of material allows electric current to flow through it easily, such as copper or other metals.
+Q: What is a conductor?
+------
+A: This region surrounding a charged object is where its electric force can be detected and would act on another charge.
+Q: What is an electric field?
+------

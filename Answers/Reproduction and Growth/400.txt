@@ -1,0 +1,12 @@
+A: This plant hormone controls the direction and rate of plant growth, including bending toward light.
+Q: What is auxin?
+------
+A: This term describes a plant's growth response toward or away from a stimulus, such as light or gravity.
+Q: What is tropism?
+------
+A: This dramatic process of change in body form during development is seen in animals like frogs and butterflies.
+Q: What is metamorphosis?
+------
+A: This response of an organism to the length of day or night, which can trigger flowering or migration, is called this.
+Q: What is photoperiodism?
+------

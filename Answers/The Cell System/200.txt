@@ -1,0 +1,12 @@
+A: This organelle controls cell activities and contains the cell's DNA.
+Q: What is the nucleus?
+------
+A: This flexible layer, also called the plasma membrane, controls what enters and leaves the cell.
+Q: What is the cell membrane?
+------
+A: This organelle converts energy in food into energy the cell can use, and is where cellular respiration occurs.
+Q: What is the mitochondrion?
+------
+A: This rigid layer, found only in plant cells, is located outside the cell membrane and protects and supports the cell.
+Q: What is the cell wall?
+------

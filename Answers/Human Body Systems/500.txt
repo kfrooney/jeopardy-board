@@ -1,0 +1,12 @@
+A: This basic unit of the nervous system carries electrical signals throughout the body.
+Q: What is a neuron?
+------
+A: This tiny gap between two neurons is where a signal is chemically passed from one neuron to the next.
+Q: What is a synapse?
+------
+A: This type of fast, automatic, involuntary response to a stimulus does not require the brain to process it first.
+Q: What is a reflex?
+------
+A: This control system works like a thermostat, reversing a change in the body to bring it back toward a stable, normal level.
+Q: What is negative feedback?
+------

@@ -1,0 +1,12 @@
+A: This term names the series of predictable changes that occur in a community over time.
+Q: What is succession?
+------
+A: This type of succession occurs in an area where no soil or organisms previously existed, such as on bare rock after a volcanic eruption.
+Q: What is primary succession?
+------
+A: This type of succession occurs in an area where the ecosystem was disturbed, but soil and organisms already exist, such as after a forest fire.
+Q: What is secondary succession?
+------
+A: These are the first species, often mosses and lichens carried in by wind, to populate a new area during succession.
+Q: What are pioneer species?
+------

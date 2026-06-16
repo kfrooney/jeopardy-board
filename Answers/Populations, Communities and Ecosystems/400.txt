@@ -1,0 +1,15 @@
+A: This term describes the number and variety of different species living in an area.
+Q: What is biodiversity?
+------
+A: This is one of the three factors of biodiversity, describing the variety of different ecosystems within a region.
+Q: What is ecosystem diversity?
+------
+A: This is one of the three factors of biodiversity, describing the variety of inherited traits within an entire species' genetic makeup.
+Q: What is genetic diversity?
+------
+A: This species has an unusually large effect on the survival of many other species in its ecosystem, far beyond what its population size would suggest.
+Q: What is a keystone species?
+------
+A: This term describes a species that is not native to an area and was introduced, often disrupting the existing ecosystem.
+Q: What is an invasive species?
+------

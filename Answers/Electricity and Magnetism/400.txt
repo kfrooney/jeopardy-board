@@ -1,0 +1,9 @@
+A: This object produces a magnetic field and attracts certain metals, like iron, nickel, and cobalt.
+Q: What is a magnet?
+------
+A: Every magnet has two of these, called north and south, where the magnetic force is strongest.
+Q: What are magnetic poles?
+------
+A: This force either attracts or repels objects based on their magnetic properties, with like poles repelling and opposite poles attracting.
+Q: What is magnetic force?
+------

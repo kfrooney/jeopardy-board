@@ -1,0 +1,15 @@
+A: This organelle, found only in plant cells, is where photosynthesis takes place using energy from sunlight.
+Q: What is the chloroplast?
+------
+A: This green pigment molecule, found in the chloroplast, captures light energy for photosynthesis.
+Q: What is chlorophyll?
+------
+A: This term describes organisms like plants and algae that make their own food, as opposed to heterotrophs that cannot.
+Q: What is an autotroph (producer)?
+------
+A: This process releases energy from food without using oxygen, and includes both alcoholic and lactic acid types.
+Q: What is fermentation?
+------
+A: This type of fermentation occurs in yeast and other unicellular organisms, producing alcohol and carbon dioxide -- the same CO2 that makes bread dough rise.
+Q: What is alcoholic fermentation?
+------

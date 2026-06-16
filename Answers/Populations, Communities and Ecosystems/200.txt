@@ -1,0 +1,15 @@
+A: This struggle between organisms occurs when they try to use the same limited resource.
+Q: What is competition?
+------
+A: This interaction occurs when one organism hunts and kills another for food.
+Q: What is predation?
+------
+A: In this type of close relationship between two species, one species benefits while the other is neither helped nor harmed.
+Q: What is commensalism?
+------
+A: In this type of close relationship between two species, both species benefit.
+Q: What is mutualism?
+------
+A: In this type of close relationship, one organism lives on or inside another and harms it.
+Q: What is parasitism?
+------

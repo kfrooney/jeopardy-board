@@ -1,0 +1,15 @@
+A: This term describes the benefits humans receive from nature, such as clean water, pollination, and air purification.
+Q: What are ecosystem services?
+------
+A: This is the practice of using less of a resource so that it lasts longer.
+Q: What is conservation?
+------
+A: This term describes an ecosystem's ability to maintain its biodiversity and production indefinitely.
+Q: What is sustainability?
+------
+A: This practice involves repairing a degraded or destroyed ecosystem and protecting it from further damage.
+Q: What is ecological restoration?
+------
+A: This scientific field studies how organisms interact with their environment.
+Q: What is ecology?
+------

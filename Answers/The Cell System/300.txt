@@ -1,0 +1,12 @@
+A: This type of transport moves materials across the cell membrane without the cell using energy, going from high to low concentration.
+Q: What is passive transport?
+------
+A: This type of passive transport is specifically the diffusion of water across a membrane.
+Q: What is osmosis?
+------
+A: This type of transport requires the cell to use energy to move materials from low to high concentration.
+Q: What is active transport?
+------
+A: This process moves large particles into the cell as the membrane changes shape to surround the particles.
+Q: What is endocytosis?
+------

@@ -1,0 +1,9 @@
+A: This is a complete, closed path that electric current can flow through.
+Q: What is an electric circuit?
+------
+A: In this type of circuit, all components are connected along a single path, so if one part fails, the entire circuit stops working.
+Q: What is a series circuit?
+------
+A: In this type of circuit, components are connected along multiple branching paths, so current can still flow even if one branch fails.
+Q: What is a parallel circuit?
+------

@@ -1,0 +1,12 @@
+A: This type of reproduction involves only one parent and produces offspring genetically identical to that parent.
+Q: What is asexual reproduction?
+------
+A: This type of reproduction involves two parents and combines genetic material to produce offspring that are genetically unique.
+Q: What is sexual reproduction?
+------
+A: This process occurs when a sperm cell and an egg cell join together.
+Q: What is fertilization?
+------
+A: This is a specific characteristic, like eye color or height, that can be passed from parent to offspring.
+Q: What is a trait?
+------

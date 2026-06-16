@@ -1,3 +1,0 @@
-A: This element has the atomic number 1.
-Q: What is hydrogen?
-------

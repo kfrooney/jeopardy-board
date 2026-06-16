@@ -1,3 +1,0 @@
-A: This scientist developed the theory of general relativity.
-Q: Who is Albert Einstein?
-------

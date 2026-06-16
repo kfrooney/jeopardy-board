@@ -1,0 +1,12 @@
+A: In this type of wave, the medium moves at right angles (perpendicular) to the direction the wave travels, like shaking a rope up and down.
+Q: What is a transverse wave?
+------
+A: In this type of wave, the medium moves back and forth in the same direction the wave travels, like a coiled spring being pushed and pulled.
+Q: What is a longitudinal wave?
+------
+A: This is the maximum distance a wave's medium moves from its rest position, and it determines how much energy the wave carries.
+Q: What is amplitude?
+------
+A: This is the distance between one point on a wave and the identical point on the next wave, such as crest to crest.
+Q: What is wavelength?
+------

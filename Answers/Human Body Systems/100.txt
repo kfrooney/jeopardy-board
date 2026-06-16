@@ -1,0 +1,9 @@
+A: This is a group of similar cells that work together to perform a specific function.
+Q: What is a tissue?
+------
+A: This is a structure made of two or more different tissues working together to perform a job.
+Q: What is an organ?
+------
+A: This is a group of organs that work together to perform a major body function.
+Q: What is an organ system?
+------
