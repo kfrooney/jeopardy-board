@@ -27,6 +27,10 @@ function pickRandom(arr) {
 function renderBoard(data) {
   boardEl.innerHTML = "";
   boardEl.style.gridTemplateColumns = `repeat(${data.topics.length}, 1fr)`;
+  const numLevelsForLayout = Math.max(
+    ...data.topics.map((t) => t.levels.length)
+  );
+  boardEl.style.setProperty("--num-levels", numLevelsForLayout);
 
   data.topics.forEach((topic) => {
     const header = document.createElement("div");

@@ -12,24 +12,29 @@
   display: none !important;
 }
 
-body {
+html, body {
+  height: 100%;
   margin: 0;
+  overflow: hidden;
+}
+
+body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   background: #000;
   color: #fff;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 header {
+  flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 24px;
-  padding: 20px;
+  padding: 12px 20px;
 }
 
 h1 {
@@ -56,9 +61,13 @@ button:hover {
 }
 
 #board-container {
+  flex: 1 1 auto;
   width: 100%;
   max-width: 1100px;
-  padding: 0 16px 40px;
+  padding: 0 16px 16px;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 #status-message {
@@ -67,11 +76,14 @@ button:hover {
 }
 
 .board {
+  flex: 1 1 auto;
   display: grid;
+  grid-template-rows: auto repeat(var(--num-levels, 5), 1fr);
   gap: var(--board-gap);
   background: var(--jeopardy-blue);
   padding: var(--board-gap);
   border-radius: 8px;
+  min-height: 0;
 }
 
 .board.hidden {
@@ -84,12 +96,11 @@ button:hover {
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 12px 4px;
-  font-size: clamp(0.7rem, 1.5vw, 1.1rem);
+  padding: 8px 4px;
+  font-size: clamp(0.6rem, 1.5vw, 1.1rem);
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 60px;
 }
 
 .cell {
@@ -97,11 +108,11 @@ button:hover {
   border: 2px solid #000;
   color: var(--jeopardy-gold);
   font-weight: bold;
-  font-size: clamp(1.2rem, 3vw, 2rem);
+  font-size: clamp(1rem, 3vw, 2rem);
   display: flex;
   align-items: center;
   justify-content: center;
-  aspect-ratio: 3 / 2;
+  min-height: 0;
   cursor: pointer;
   font-family: Georgia, serif;
   transition: background 0.15s;
